@@ -1,22 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>Cristóbal J. Subires - Programación y Ciberseguridad</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+    <meta name="description" content="Cristóbal J. Subires (csubires), experto en desarrollo web y ciberseguridad. Ofrezco servicios de creación de sitios web seguros, auditorías de seguridad y desarrollo de aplicaciones web.">
+    <meta name="keywords" co<meta name="keywords" content="Programador, Desarrollo de software, Programador web, Ciberseguridad, HTML, CSS, JavaScript, Seguridad informática, Ethical hacking, Web developer, Cybersecurity">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://csubires.github.io/portfolio/">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" hreflang="en-us" href="https://csubires.github.io/portfolio/"/>
+    <link rel="alternate" hreflang="fr-fr" href="https://csubires.github.io/portfolio/"/>
+<!--
+# Filename: main.py
+# Version: 1.0
+# By: CSUBIRES <j3xuz_cobmetal88@hotmail.com>
+# Created: 2024/08/12 12:03:12 by CSUBIRES
+# Updated: 2024/08/12 12:03:12 by CSUBIRES
+# Description: Portfolio
+-->
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Introduce yourself here.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <p>Showcase your projects here.</p>
-    </section>
+    <div class="container">
+        <section class="slide" id="home">
+            <div class="comment">
+                <div class="comment--image"><img id="avatar" src="assets/me.jpg" alt="csubires"></div>
+                <div class="comment--content">
+                    <div class="comment--title"><h2>Hola &#128075;, Soy Cristóbal J. Subires entusiasta de la tecnología, aprendiz constante de programación y muy interesado en la ciberseguridad e IT</h2></div>
+                    <div class="comment--location">Málaga, España</div>
+                    <div class="comment--body">
+                        <p>Actualmente realizo diferentes tipos de proyectos en el campus de programación de 42, cuya metodología me hace crecer cada día más en soft skills y conocimientos.</p>
+                        <p>No solo la programación ocupa mi interés, también me atrae la administración, análisis y auditoria de seguridad, el hardening de sistemas operativos, la investigación forense digital, la automatización mediante scripts, o el análisis de Malware.</p>
+                        <p>Deseo es seguir avanzando y aumentando conocimientos en el sector de la ciberseguridad hasta poder dedicarme a ello, y en vista a la cantidad de ataques a instituciones y empresas que se dan hoy día, ser uno de los que contribuyen a  mejorarlas en ese aspecto.</p>
+                        <p>En mi tiempo libre también dedico tiempo a aumentar mi conocimientos en mécanica, electrónica, ciencia, y otos.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="slide" id="study">
+            <h2>Algunos de mis estudios y habilidades son</h>
+            <ul>
+                <li>Técnico Superior de Formación Profesional en Desarrollo de Aplicaciones Informáticas</li>
+                <li>Ingeniero Técnico en Informática de sistemas</li>
+                <li>Curso Online de Ciberseguridad en la industria 4.0</li>
+                <li>Prácticas en IAVANTE</li>
+            </ul>
+        </section>
+
+        <section class="slide" id="projects">
+            <h2>Aquí puedes ver algunos de los proyectos en los que he trabajado</h2>
+            <div class="scrollable">
+                <ul class="card-wrapper">
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/filmoteca" target="_blank">
+                            <img src="assets/proyect/filmoteca.png" alt="filmoteca">
+                            <div class="card-content">
+                                <p><b>Gestor de películas</b></p>
+                                <p class="degrade">Proyecto que gestiona de forma integral una colección de películas local.</p>
+                                <p>Con obtención de metadatos mediante scraping.</p>
+                                <small>Pyhton, Flask, HTML, CSS, JavaScript, SQL</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/shell-script" target="_blank">
+                            <img src="assets/proyect/shellscript.png" alt="shellscript">
+                            <div class="card-content">
+                                <p><b>Colección Shell Script</b></p>
+                                <p class="degrade">Conjunto de script desarrollados en bash script para el desarrollo de distintas funciones.</p>
+                                <p>Usadas para administrar librerías multimedia y sistemas entre otros.</p>
+                                <small>Bash, ZSH, Scripting</small>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/42_fdf_pro" target="_blank">
+                            <img src="assets/proyect/fdf.png" alt="42_fdf_pro">
+                            <div class="card-content">
+                                <p><b>FDF Avanzado</b></p>
+                                <p class="degrade">Ampliación de un proyecto de representación de mapas isométricos añadiendo más funcionalidades.</p>
+                                <p>Dadas las limitaciones del proyecto original decidí desarrollarlo.</p>
+                                <small>C, Makefile, Bash</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/computer_vision" target="_blank">
+                            <img src="assets/proyect/computervision.jpg" alt="computervision">
+                            <div class="card-content">
+                                <p><b>Visión por computador</b></p>
+                                <p class="degrade">Colección de pequeños códigos como prueba de concepto para el uso de visión por computador.</p>
+                                <p>Utilizado para detectar objetos, caras, etc.</p>
+                                <small>Python, OpenCV</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/42_Ring_02_snapshot/blob/main/README.md" target="_blank">
+                            <img src="assets/proyect/42.png" alt="42">
+                            <div class="card-content">
+                                <p><b>Campus 42</b></p>
+                                <p class="degrade">Proyectos desarrollados en el campues 42 hasta el Rank 02.</p>
+                                <p>A medida que vaya finalizando distintos anillos los iré liberando.</p>
+                                <small>C, Bash, Makefile</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/python_modules" target="_blank">
+                            <img src="assets/proyect/modpython.jpg" alt="modpython">
+                            <div class="card-content">
+                                <p><b>Módulos Python</b></p>
+                                <p class="degrade">Conjunto de módulos que facilizan la implementación de distintas funciones.</p>
+                                <p>Desde el uso de Bases de Datos, Conexión Web, o manejo de configuraciones de aplicación.</p>
+                                <small>Python</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="https://github.com/csubires/42_exam_study" target="_blank">
+                            <img src="assets/proyect/coming.jpg" alt="coming">
+                            <div class="card-content">
+                                <p><b>Exam Study</b></p>
+                                <p class="degrade">Plataforma de ayuda al estudio de examenes 42.</p>
+                                <p>Proximamente.</p>
+                                <small>C, bash</small>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="slide" id="contact">
+            <h2>Puedes contactarme para cualquier consulta o propuesta de proyecto en</h>
+            <ul>
+                <li><a href="https://github.com/csubires" target="_blank"><i>Github</i><img src = "assets/github.svg" alt="Github csubires"/><span>github.com/csubires</span></a></li>
+                <li><a href="https://www.linkedin.com/in/csubires/" target="_blank"><i>LinkedIn</i><img src = "assets/linkedin.svg" alt="LinkedIn csubires"/><span>www.linkedin.com/in/csubires</span></a></li>
+                <li><a href="https://x.com/cjsubires" target="_blank"><i>X</i><img src = "assets/twitter.svg" alt="Twitter csubires"/><span>x.com/cjsubires</span></a></li>
+            </ul>
+        </section>
+    </div>
+
+    <nav class="dot-indicators">
+        <a title="Acerca de mí" href="#home" class="dot"><img src = "assets/home.svg" alt="Acerca de mí"/></a>
+        <a title="Estudios" href="#study" class="dot"><img src = "assets/study.svg" alt="Estudios"/></a>
+        <a title="Portafolio" href="#projects" class="dot"><img src = "assets/portfolio.svg" alt="Portafolio"/></a>
+        <a title="Contacto" href="#contact" class="dot"><img src = "assets/contact.svg" alt="Contacto"/></a>
+    </nav>
+
 </body>
 </html>
