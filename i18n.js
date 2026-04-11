@@ -1,7 +1,7 @@
 const translations = {
   es: {
     nav: ['Sobre mí', 'Habilidades', 'Proyectos', 'Experiencia', 'Certificaciones', 'Formación', 'CTFs', 'Contacto'],
-    hero: ['Ciberseguridad · Sistemas · Desarrollo', 'Hardening. Auditoría. Automatización.', 'Ver proyectos'],
+    hero: ['Ciberseguridad · Sistemas · Desarrollo · Programación', 'Hardening. Auditoría. Automatización.', 'Ver proyectos'],
     about: {
       title: 'Sobre mí',
       p1: 'Técnico Superior en Desarrollo de Aplicaciones Informáticas con sólida orientación hacia la ciberseguridad, combinando formación técnica con aprendizaje autodidacta en entornos reales y virtuales.',
@@ -28,7 +28,7 @@ const translations = {
   },
   en: {
     nav: ['About', 'Skills', 'Projects', 'Experience', 'Certifications', 'Education', 'CTFs', 'Contact'],
-    hero: ['Cybersecurity · Systems · Development', 'Hardening. Auditing. Automation.', 'View projects'],
+    hero: ['Cybersecurity · Systems · Development · Scripting', 'Hardening. Auditing. Automation.', 'View projects'],
     about: {
       title: 'About me',
       p1: 'Higher Technician in Computer Application Development with a strong focus on cybersecurity, combining technical training with self-taught learning in real and virtual environments.',

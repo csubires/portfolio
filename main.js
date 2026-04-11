@@ -12,12 +12,123 @@ const SKILLS = {
 };
 
 const PROJECTS = [
-  { name: 'Gestor de colecciones multimedia', desc: 'Aplicación web propia para gestionar colecciones multimedia. Stack: Flask (Python), Sass, JavaScript vanilla, SQLite.', tags: ['Python', 'Flask', 'SQLite', 'Sass', 'JavaScript'], img: 'assets/project/1.png', link: 'https://github.com/csubires/filmoteca' },
-  { name: 'Homelab con Docker', desc: 'Servidor propio sobre Ubuntu Server con contenedores Docker: Gitea, Nextcloud, WordPress y servicios adicionales.', tags: ['Docker', 'Ubuntu Server', 'Gitea', 'Nextcloud'], img: 'assets/project/6.jpg', link: 'https://github.com/csubires/' },
-  { name: 'Escáner de red en Python', desc: 'Script de descubrimiento de hosts e IPs en red local, integrable en flujos de auditoría.', tags: ['Python', 'Networking', 'Bash'], img: 'assets/project/5.png', link: 'https://github.com/csubires/' },
-  { name: 'Scripts de Web Scraping', desc: 'Automatización de extracción de datos web mediante Python para análisis y vigilancia de activos.', tags: ['Python', 'BeautifulSoup', 'Automatización'], img: 'assets/project/4.png', link: 'https://github.com/csubires/' },
-  { name: 'Laboratorios de pentesting', desc: 'Entornos virtualizados con Kali Linux para hacking ético, auditoría WiFi con WifiSlax y análisis de malware con OllyDbg.', tags: ['Kali Linux', 'VirtualBox', 'WifiSlax', 'OllyDbg'], img: 'assets/project/3.jpg', link: 'https://github.com/csubires/' },
-  { name: 'Proyectos en 42 Málaga', desc: 'Proyectos y librerías en C: gestión de memoria, punteros, señales del sistema y trabajo colaborativo en entornos Unix.', tags: ['C', 'Unix', 'Git', 'Makefile'], img: 'assets/project/2.png', link: 'https://github.com/csubires' }
+
+{
+  name: 'Laboratorios de pentesting',
+  desc: 'Entornos virtualizados, auditoría WiFi con WifiSlax y análisis de malware',
+  tags: ['Kali Linux', 'VirtualBox', 'WifiSlax', 'Reversing'],
+  img: 'assets/project/vm.png',
+  link: 'https://github.com/csubires/'
+}, {
+  name: '42_cybersecurity_pool',
+  desc: 'Carrera a contrarrelog de proyectos de hacking ético',
+  tags: ['Hacking ético', 'phishing', , 'Automatización'],
+  img: 'assets/project/cyberpool.png',
+  link: 'https://github.com/csubires/42_cybersecurity_pool'
+}, {
+  name: 'IFCT0109',
+  desc: 'Ejercicios de Seguridad Informática',
+  tags: ['Certificado', 'Herramientas', 'Seguridad'],
+  img: 'assets/project/ifct.jpg',
+  link: 'https://github.com/csubires/IFCT0109'
+}, {
+  name: 'setup_configs',
+  desc: 'Multiples script de automatización de setup',
+  tags: ['Setup', 'configuración'],
+  img: 'assets/project/config.jpg',
+  link: 'https://github.com/csubires/setup_configs'
+}, {
+  name: '42_fdf_pro',
+  desc: 'Dibujado de mapas alámbricos',
+  tags: ['Mapas', 'Render', 'C'],
+  img: 'assets/project/fdf.png',
+  link: 'https://github.com/csubires/42_fdf_pro'
+}, {
+  name: 'filmoteca',
+  desc: 'Gestión "casera" de películas',
+  tags: ['Full Stack', 'Python', 'node.js', 'API'],
+  img: 'assets/project/filma.png',
+  link: 'https://github.com/csubires/filmoteca'
+}, {
+  name: '42_common_core',
+  desc: 'Projectos comunes de la metodología 42 Málaga',
+  tags: ['Proyectos', 'Superación'],
+  img: 'assets/project/common.png',
+  link: 'https://github.com/csubires/42_common_core'
+}, {
+  name: 'shell_scripting',
+  desc: '',
+  tags: ['Automatizacón', 'Servidor'],
+  img: 'assets/project/scripting.png',
+  link: 'https://github.com/csubires/shell_scripting'
+}, {
+  name: '42_webserv_pro',
+  desc: 'Servidor Web para servir páginas escrito en C',
+  tags: ['Server', 'HTML', 'CGI'],
+  img: 'assets/project/webserv.jpg',
+  link: 'https://github.com/csubires/42_webserv_pro'
+}, {
+  name: '42_cub3d_pro',
+  desc: 'Simulación de entornos 3D escrito en C',
+  tags: ['Juego', 'Render', 'Pathtracing'],
+  img: 'assets/project/cub3d.png',
+  link: 'https://github.com/csubires/42_cub3d_pro'
+}, {
+  name: '42_minishell_pro',
+  desc: 'Shell Linux escrito en C',
+  tags: ['Shell', 'C'],
+  img: 'assets/project/mini.png',
+  link: 'https://github.com/csubires/42_minishell_pro'
+}, {
+  name: '42_examstudy_pro',
+  desc: 'Ayuda al estudio de exámenes en la metodología 42',
+  tags: ['Exámen', 'Rings'],
+  img: 'assets/project/exam.jpg',
+  link: 'https://github.com/csubires/42_examstudy_pro'
+}, {
+  name: 'computer_vision',
+  desc: 'Pequeños programas para uso de Webcams y visión por computador',
+  tags: ['Python', 'OpenCV'],
+  img: 'assets/project/vision.jpg',
+  link: 'https://github.com/csubires/computer_vision'
+}, {
+  name: 'Obsidian',
+  desc: 'Vault de conocimientos aprendidos',
+  tags: ['Virtual Brain', 'Notes'],
+  img: 'assets/project/obsidian.png',
+  link: 'https://github.com/csubires/obsidian'
+}, {
+  name: 'cybersecurity_notes',
+  desc: '',
+  tags: ['Cyber', 'Hack'],
+  img: 'assets/project/cybernotes.png',
+  link: 'https://github.com/csubires/cybersecurity_notes'
+}, {
+  name: 'python_modules',
+  desc: 'Módulos de Python para diferentes tareas',
+  tags: ['Python', 'Modules'],
+  img: 'assets/project/python.jpg',
+  link: 'https://github.com/csubires/python_modules'
+}, {
+  name: 'cybersecurity',
+  desc: '',
+  tags: ['Cyber', 'Hacking'],
+  img: 'assets/project/cyber.jpg',
+  link: 'https:/github.com/csubires/cyber-security'
+}, {
+  name: '42_outer_core',
+  desc: 'Proyectos de Outer Core 42',
+  tags: ['Programación', 'Trabajo en equipo'],
+  img: 'assets/project/42.jpg',
+  link: 'https://github.com/csubires/42_outer_core'
+}, {
+  name: '42_piscine',
+  desc: 'Mi piscina 42',
+  tags: ['Piscina', '42'],
+  img: 'assets/project/pool.jpg',
+  link: 'https://github.com/csubires/42_piscine'
+}
+
 ];
 
 const CERTS = [
@@ -54,6 +165,72 @@ const CTFS = [
   { name: 'Atenea', desc: 'CCN Cyber security platform', url: 'https://atenea.ccn-cert.cni.es/home', img: 'assets/ctf/atenea.png' }
 ];
 
+const HARDWARE = [
+  { name: 'Servidor Homelab', img: 'img/hardware/server.jpg', desc: 'Ubuntu Server · Docker · 32GB RAM' },
+  { name: 'Estación de trabajo', img: 'img/hardware/workstation.jpg', desc: 'Ryzen 7 · 64GB · RTX 3060' },
+  { name: 'Router/ Firewall', img: 'img/hardware/router.jpg', desc: 'pfSense · VLANs · IDS/IPS' },
+  { name: 'Switch Gestionable', img: 'img/hardware/switch.jpg', desc: 'Cisco · VLANs · Port Mirroring' }
+];
+
+let currentSlide = 0;
+
+function renderHardwareCarousel() {
+  const track = document.getElementById('hardware-carousel');
+  const dots = document.getElementById('carousel-dots');
+  if (!track) return;
+
+  track.innerHTML = HARDWARE.map((h, i) => `
+    <div class="carousel-slide">
+      <img src="${h.img}" alt="${h.name}" loading="lazy">
+      <div class="slide-caption">
+        <h3>${h.name}</h3>
+        <p>${h.desc}</p>
+      </div>
+    </div>
+  `).join('');
+
+  dots.innerHTML = HARDWARE.map((_, i) => `
+    <button class="dot ${i === currentSlide ? 'active' : ''}" data-index="${i}"></button>
+  `).join('');
+
+  updateCarousel();
+}
+
+function updateCarousel() {
+  const track = document.getElementById('hardware-carousel');
+  if (!track) return;
+  track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+  document.querySelectorAll('.dot').forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+  });
+}
+
+function initCarousel() {
+  const prevBtn = document.querySelector('.carousel-btn.prev');
+  const nextBtn = document.querySelector('.carousel-btn.next');
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      currentSlide = (currentSlide - 1 + HARDWARE.length) % HARDWARE.length;
+      updateCarousel();
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      currentSlide = (currentSlide + 1) % HARDWARE.length;
+      updateCarousel();
+    });
+  }
+
+  document.querySelectorAll('.dot').forEach(dot => {
+    dot.addEventListener('click', (e) => {
+      currentSlide = parseInt(e.target.dataset.index);
+      updateCarousel();
+    });
+  });
+}
 
 let currentLang = 'es';
 
@@ -69,16 +246,16 @@ function t(key) {
 
 function applyTranslations() {
   document.documentElement.lang = currentLang;
-  
+
   const navLinks = document.querySelectorAll('.nav-links .nav-link, #nav-overlay .nav-link');
   navLinks.forEach((link, i) => {
     if (translations[currentLang].nav[i]) link.textContent = translations[currentLang].nav[i];
   });
-  
+
   document.querySelector('.hero-role').textContent = t('hero.0');
   document.querySelector('.hero-tagline').textContent = t('hero.1');
   document.querySelector('.btn-primary').textContent = t('hero.2');
-  
+
   document.querySelector('#about .section-title').textContent = t('about.title');
   const aboutPs = document.querySelectorAll('#about .about-text p');
   if (aboutPs[0]) aboutPs[0].textContent = t('about.p1');
@@ -88,7 +265,7 @@ function applyTranslations() {
   const langsLi = document.querySelectorAll('#about .langs-block li');
   if (langsLi[0]) langsLi[0].textContent = t('about.lang_es');
   if (langsLi[1]) langsLi[1].textContent = t('about.lang_en');
-  
+
   document.querySelector('#skills .section-title').textContent = t('skills');
   document.querySelector('#projects .section-title').textContent = t('projects');
   document.querySelector('#experience .section-title').textContent = t('experience');
@@ -97,13 +274,13 @@ function applyTranslations() {
   document.querySelector('#ctf .section-title').textContent = t('ctf');
   document.querySelector('#contact .section-title').textContent = t('contact.title');
   document.querySelector('.contact-subtitle').textContent = t('contact.subtitle');
-  
+
   const contactLabels = document.querySelectorAll('.contact-item label');
   if (contactLabels[0]) contactLabels[0].textContent = t('contact.email');
   if (contactLabels[1]) contactLabels[1].textContent = t('contact.location');
   document.querySelector('#contact .contact-item span').textContent = t('contact.location_text');
   document.querySelector('.contact-note').textContent = t('contact.available');
-  
+
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === currentLang);
   });
@@ -198,16 +375,16 @@ function renderCertifications() {
 function initTheme() {
   const stored = localStorage.getItem('theme') || 'light';
   document.documentElement.dataset.theme = stored;
-  
+
   const toggle = document.getElementById('theme-toggle');
   const toggleMobile = document.getElementById('theme-toggle-mobile');
-  
+
   const switchTheme = () => {
     const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
     localStorage.setItem('theme', next);
   };
-  
+
   if (toggle) toggle.addEventListener('click', switchTheme);
   if (toggleMobile) toggleMobile.addEventListener('click', switchTheme);
 }
@@ -271,7 +448,9 @@ document.addEventListener('DOMContentLoaded', () => {
   renderEducation();
   renderCTFs();
   renderCertifications();
+  renderHardwareCarousel();
   initTheme();
   initNav();
   initReveal();
+initCarousel();
 });
