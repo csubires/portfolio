@@ -94,7 +94,7 @@ const PROJECTS = [
 }, {
   name: 'Obsidian',
   desc: 'Vault de conocimientos aprendidos',
-  tags: ['Virtual Brain', 'Notes'],
+  tags: ['Private', 'Virtual Brain', 'Notes'],
   img: 'assets/project/obsidian.png',
   link: 'https://github.com/csubires/obsidian'
 }, {
@@ -142,6 +142,7 @@ const CERTS = [
   { name: 'Ciberseguridad en logística y transporte', issuer: 'MainJobs', year: '2024', badge: 'assets/badges/8.png', credly: 'https://www.credly.com/users/csubires' },
   { name: 'Ciberseguridad avanzada en entornos OT (IFCT0050)', issuer: 'MainJobs', year: '2024', badge: 'assets/badges/10.png', credly: 'https://www.credly.com/users/csubires' },
   { name: 'Seguridad Informática IFCT0109 (500h)', issuer: 'CENEC', year: '2025', badge: 'assets/badges/11.png', credly: 'https://www.credly.com/users/csubires' },
+  { name: 'TendAI Endpoint Security FUNDATION', issuer: 'TrendAI', year: '2025', badge: 'assets/badges/12.png', credly: 'https://education.trendmicro.com/partner/learn/learning-plans/157/trendai-vision-one-endpoint-security-foundation' },
   { name: 'Cisco CCNA 1: Networking Basics', issuer: 'Cisco Networking Academy', year: '2008', badge: 'assets/badges/9.png', credly: 'https://www.credly.com/users/csubires' }
 ];
 
@@ -166,10 +167,12 @@ const CTFS = [
 ];
 
 const HARDWARE = [
-  { name: 'Servidor Homelab', img: 'img/hardware/server.jpg', desc: 'Ubuntu Server · Docker · 32GB RAM' },
-  { name: 'Estación de trabajo', img: 'img/hardware/workstation.jpg', desc: 'Ryzen 7 · 64GB · RTX 3060' },
-  { name: 'Router/ Firewall', img: 'img/hardware/router.jpg', desc: 'pfSense · VLANs · IDS/IPS' },
-  { name: 'Switch Gestionable', img: 'img/hardware/switch.jpg', desc: 'Cisco · VLANs · Port Mirroring' }
+  { name: 'name', img: 'assets/hardware/1.jpg', desc: 'desc' },
+  { name: 'name', img: 'assets/hardware/2.jpg', desc: 'desc' },
+  { name: 'name', img: 'assets/hardware/3.jpg', desc: 'desc' },
+  { name: 'name', img: 'assets/hardware/4.jpg', desc: 'desc' },
+  { name: 'name', img: 'assets/hardware/5.jpg', desc: 'desc' },
+  { name: 'namee', img: 'assets/hardware/6.jpg', desc: 'desc' }
 ];
 
 let currentSlide = 0;
